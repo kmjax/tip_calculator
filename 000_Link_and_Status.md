@@ -18,7 +18,7 @@ This is a web page form to calculate a tip given the following parameters:
 The service rating is applied to tip calculation as follows:
 
 - a) terrible = 5%
-- b) not great = 10%
+- b) mediocre = 10%
 - c) okay = 15%
 - d) good = 20%
 - e) excellent = 25%
@@ -28,7 +28,7 @@ When the calculate button is clicked, calculate the value and display it on the 
 
 #### STATUS
 
-Just started. To be completed by noon on 2020-11-19.
+About 50% completed. The web page's interface has been created, now need to do the programming portion to perform the calculation and show the result. To be completed by noon on 2020-11-19.
 
 
 #### SOURCE
