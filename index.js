@@ -9,6 +9,6 @@
 // Date:   11/18/2020
 // ===============================================
 
-alert(
-  "Hello World\nThis lets us know the JavaScript\nsource is linked with this page.\n\nThe form is non-functional at the moment."
-);
+// alert(
+//   "Hello World\nThis lets us know the JavaScript\nsource is linked with this page.\n\nThe form is non-functional at the moment."
+// );

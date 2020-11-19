@@ -12,7 +12,7 @@ body {
 }
 
 #title-area {
-  width: 600px;
+  width: 500px;
   background-color: #440000;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
@@ -33,7 +33,7 @@ body {
 }
 
 #calc-area {
-  width: 600px;
+  width: 500px;
   background-color: linen;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
@@ -50,6 +50,7 @@ body {
 .text-input {
   font-family: monospace;
   font-size: 25px;
+  text-align: right;
 }
 
 #service-rating {
@@ -72,4 +73,19 @@ body {
   margin-top: 25px;
   margin-bottom: 25px;
   letter-spacing: 2px;
+}
+
+#calc-btn:hover {
+  background-color: #771111;
+  box-shadow: 0px 0px 5px red;
+}
+
+#hr-bottom-divider {
+  width: 90%;
+  height: 4px;
+  background-color: lightpink;
+}
+
+#tip-amount {
+  border: none;
 }
