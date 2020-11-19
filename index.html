@@ -33,7 +33,7 @@
         </h3>
       </div>
       <div id="calc-area">
-        <form action="#" method="GET">
+        <form action="#" method="GET" id="tip-form">
           <p class="p-calc">
             Bill Amount:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$
             <input
@@ -60,28 +60,20 @@
             <input
               class="text-input"
               type="text"
-              name="countOfDiners"
+              name="dinerCount"
               id="diner-count"
               size="2"
               maxlength="2"
             />
           </p>
-          <p id="p-calc-button">
+          <p type="submit" id="p-calc-button">
             &nbsp;
             <button id="calc-btn">Calculate!</button>
           </p>
           <hr id="hr-bottom-divider" />
-          <p class="p-calc">
-            Each person's tip amount: &nbsp;&nbsp;&nbsp;$
-            <input
-              class="text-input"
-              type="text"
-              name="tipAmount"
-              id="tip-amount"
-              size="6"
-              maxlength="6"
-              readonly
-            />
+          <p class="p-calc" id="tip-label">
+            Each person's calculated tip amount: &nbsp;&nbsp;&nbsp;$
+            <span id="tip-amount">0.00</span>
           </p>
         </form>
       </div>
